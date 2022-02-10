@@ -1,0 +1,226 @@
+/* list */
+/* 5 */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f1f1eb;
+  scroll-behavior: smooth; }
+
+.header__home {
+  display: flex;
+  flex-direction: row;
+  background-color: #98b1e0;
+  padding-top: 10px; }
+  .header__home h1 {
+    border: solid 1px white;
+    color: white;
+    margin: 10px; }
+
+.iconos__header a {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1100px;
+  color: white; }
+
+.navbar {
+  background-color: #98b1e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px; }
+  .navbar-items {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    margin: 10px; }
+    .navbar-items li a {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 10px; }
+      .navbar-items li a:hover {
+        color: #ebcd6b;
+        transition: 2s;
+        text-decoration: underline; }
+
+.navbar h1 {
+  border: solid 2px white;
+  color: white; }
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px; }
+  .iconos a {
+    color: white;
+    padding: 10px; }
+  .iconos h5 {
+    margin: 15px; }
+
+.home__pic {
+  width: 100%; }
+
+.paragrah__home {
+  display: inline-block; }
+
+.photos__home {
+  width: 450px; }
+
+.paragraph__1 {
+  display: inline-block;
+  justify-content: center; }
+
+.container {
+  border: solid 1px white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 25px;
+  color: black; }
+
+.container__footer {
+  display: flex;
+  background-color: #98b1e0; }
+
+.design {
+  margin-top: 70px; }
+  .design h6 {
+    font-size: 10px;
+    margin-left: 150px; }
+
+.navbar-items-footer {
+  list-style: none; }
+  .navbar-items-footer li a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 300px;
+    color: white;
+    font-size: 12px;
+    padding-top: 10px; }
+
+.container__gallery {
+  display: inline-block; }
+
+.container__pic {
+  float: left;
+  position: relative;
+  width: 33.33%;
+  padding: 100px; }
+  .container__pic img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #5e51d3; }
+  .center h2 {
+    font-size: 30px;
+    text-align: center; }
+
+h2 {
+  text-align: center;
+  color: #66bedb;
+  font-weight: bold;
+  font-style: italic; }
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  align-items: center; }
+  .reviews h5 {
+    text-align: center; }
+
+.main__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.container__main {
+  display: flex; }
+  .container__main p {
+    width: 50%;
+    padding: 100px 15px 0 15px;
+    text-align: justify; }
+
+.container__skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  width: 50%; }
+
+.container {
+  border: solid 1px white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  background-color: #ddd8d8; }
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white; }
+
+.html {
+  width: 90%;
+  background-color: #f77268;
+  transition: 2s; }
+
+.css {
+  width: 80%;
+  background-color: #0ca5a5;
+  transition: 3s; }
+
+.js {
+  width: 65%;
+  background-color: #ebcd6b;
+  transition: 4s; }
+
+.ux {
+  width: 50%;
+  background-color: #808080;
+  transition: 5s; }
+
+.skills__section {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%; }
+
+.tools ul li {
+  display: inline;
+  text-decoration: none;
+  flex-direction: row;
+  position: relative;
+  font-size: 20px; }
+
+.gallery__portfolio {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 400px; }
