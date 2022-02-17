@@ -1,6 +1,15 @@
 /* list */
 /* 5 */
+/* Map */
+/* Extend */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+.header__home, .iconos__header a, .iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/* Mixin */
 * {
   margin: 0;
   padding: 0; }
@@ -17,27 +26,26 @@ body {
   scroll-behavior: smooth; }
 
 .header__home {
-  display: flex;
-  flex-direction: row;
   background-color: #98b1e0;
   padding-top: 10px; }
   .header__home h1 {
     border: solid 1px white;
-    color: white;
+    color: #f8f1f8;
     margin: 10px; }
 
 .iconos__header a {
-  display: flex;
-  flex-direction: row;
   margin-left: 1100px;
   color: white; }
+  .iconos__header a:hover {
+    color: #4a217f; }
 
 .navbar {
-  background-color: #98b1e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  background-color: #98b1e0;
   height: 100px; }
   .navbar-items {
     display: flex;
@@ -61,13 +69,13 @@ body {
   color: white; }
 
 .iconos {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 50px; }
   .iconos a {
     color: white;
     padding: 10px; }
+    .iconos a:hover {
+      color: #4a217f; }
   .iconos h5 {
     margin: 15px; }
 
@@ -146,10 +154,12 @@ h2 {
 .reviews {
   display: flex;
   flex-direction: column;
+  justify-content: justify;
+  flex-wrap: wrap;
+  align-items: center;
   font-size: 60px;
   padding-left: 150px;
-  padding-right: 150px;
-  align-items: center; }
+  padding-right: 150px; }
   .reviews h5 {
     text-align: center; }
 
@@ -221,6 +231,24 @@ h2 {
 
 .gallery__portfolio {
   display: flex;
-  flex-direction: row;
-  width: 1000px;
-  height: 400px; }
+  flex-direction: row; }
+
+.carousel__slide {
+  border: 50px;
+  padding: 50px; }
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px; }
+
+.contact__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  font-size: 15px;
+  padding: 50px; }
+  .contact__text p {
+    font-style: italic; }

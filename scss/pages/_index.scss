@@ -10,37 +10,38 @@ html {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f1f1eb;
+    background-color: map-get($colores, bg );
     scroll-behavior: smooth; }
 
 
 .header__home{
-    display:flex;
-    flex-direction: row;
+
+    @extend %flexboxRow;
     background-color: $bgcFooterNav;
     padding-top:10px;
 
     h1{
         border: solid 1px white;
-        color: white;
+        color: map-get($colores , title);
         margin:10px;  
     }
 
 }
 
 .iconos__header a{
-    display: flex;
-    flex-direction: row;
+    @extend %flexboxRow;
     margin-left: 1100px;
     color: white;
+
+    &:hover{
+        color: map-get($colores, prime-hover);
+    }
 }
 
 .navbar {
+
+    @include flexbox (column, center,wrap,center);
     background-color: $bgcFooterNav;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height:100px;
 
     &-items{
@@ -74,14 +75,17 @@ body {
 
 
 .iconos {
-    display:flex;
-    flex-direction: row;
+    @extend %flexboxRow;
     align-items: center;
     padding:50px;
     
     a{
         color:white;
-        padding:10px; 
+        padding:10px;
+        
+        &:hover{
+            color: map-get($colores, prime-hover);
+        }
     }
     h5{
         margin:15px;  
@@ -185,13 +189,11 @@ body {
   
   }
 .reviews{
-    display:flex;
-    flex-direction: column;
+    @include flexbox (column,justify, wrap, center);
     font-size:60px;
     padding-left: 150px;
     padding-right:150px;
-    align-items: center;
-
+    
     h5{
         text-align: center; 
     }

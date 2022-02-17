@@ -1,0 +1,8 @@
+Hola Santi, 
+
+*Agregue descripcion en todos los HTML segun la pagina
+*Agregue las palabras claves en el Index
+*Cambie los titulos de los HTML segun cada pagina
+*Hice un map (Index)
+*Hice un extend (index)
+*Hice un mixins(index)
