@@ -10,11 +10,26 @@ h1{
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     padding:50px;
+
+    & p span{
+        color:$bgcFooterNav;
+        text-decoration: underline;
+    }
 
     p{
 
         font-style: italic;
     }
+}
+.form__box{
+    width:50%;
+    margin-left: 350px;
+
+    .button__contact{
+
+        margin-left: 250px;
+    }
+    
 }

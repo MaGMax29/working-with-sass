@@ -219,12 +219,15 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #5e51d3;
-}
-
-.center h2 {
+  color: #66bedb;
   font-size: 30px;
-  text-align: center;
+  /* 
+    p{
+        font-size: 50px;
+        text-align: center;
+        color: rgb(102, 190, 219);
+        
+    } */
 }
 
 h2 {
@@ -232,16 +235,17 @@ h2 {
   color: #66bedb;
   font-weight: bold;
   font-style: italic;
+  padding-top: 15px;
 }
 
 .reviews {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: justify;
@@ -253,10 +257,35 @@ h2 {
   font-size: 60px;
   padding-left: 150px;
   padding-right: 150px;
+  margin: 10px;
 }
 
 .reviews h5 {
   text-align: center;
+}
+
+.carousel-inner {
+  width: 80vw;
+  height: 80vh;
+  margin-left: 120px;
+}
+
+.pic__review {
+  padding: 15px;
+}
+
+.pic__reviewhover {
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.text__paragraph p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+  text-align: justify;
+  font-style: italic;
 }
 
 .main__about {
@@ -417,11 +446,25 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   text-align: justify;
-  font-size: 15px;
+  font-size: 20px;
   padding: 50px;
+}
+
+.contact__text p span {
+  color: #98b1e0;
+  text-decoration: underline;
 }
 
 .contact__text p {
   font-style: italic;
+}
+
+.form__box {
+  width: 50%;
+  margin-left: 350px;
+}
+
+.form__box .button__contact {
+  margin-left: 250px;
 }
 /*# sourceMappingURL=style.css.map */

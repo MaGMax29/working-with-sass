@@ -172,31 +172,58 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #5e51d3;
-
-    h2{
-        font-size: 30px;
+    color: rgb(102, 190, 219);
+    font-size: 30px;
+/* 
+    p{
+        font-size: 50px;
         text-align: center;
-    }
+        color: rgb(102, 190, 219);
+        
+    } */
 }
   
 
-  h2{
+h2{
     text-align: center;
     color:rgb(102, 190, 219);
     font-weight: bold;
     font-style: italic;
+    padding-top: 15px;
+    
   
-  }
+}
+
 .reviews{
-    @include flexbox (column,justify, wrap, center);
+    @include flexbox (row,justify, wrap, center);
     font-size:60px;
     padding-left: 150px;
     padding-right:150px;
+    margin: 10px;
+
     
     h5{
         text-align: center; 
     }
 }
 
+.carousel-inner{
+    width:80vw;
+    height: 80vh;
+    margin-left: 120px;
+}
+.pic__review {
+    padding: 15px;
+    &hover{
+    transition: 3s;
+    }
+}
 
+.text__paragraph p{
+
+    justify-content: center;
+    padding: 25px;
+    text-align: justify;
+    font-style: italic;
+    
+}

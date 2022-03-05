@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<!-- Start header -->
     <header>
         <div class="header__home">
             <h1>MaGa.</h1>
@@ -38,6 +39,8 @@
             </ul>
         </nav>
     </header>
+    <!-- end of header -->
+    <!-- start main -->
     <main>
         <section>
             <div>
@@ -45,7 +48,7 @@
             </div>
         </section>
         <section class="paragraph__home">
-            <div>
+            <div class="text__paragraph">
                 <h2>Awesome Mix Vol.1</h2>
                 <p>
                     Hey there! I hope you got the reference on the title lol :). My name is Maria but my friends call me MaGa, so you can call me that too. I enjoy Sci-Fi/Fantasy movies, Anime, Manga, and a bunch of craft related projects like crochet, punch needle, and sewing. I am passionate about Web Development, Illustration, and Design. I aim to create beautiful and functional digital products inspired by all the things I love while bringing innovative ideas to life. Let's make something awesome!
@@ -53,58 +56,92 @@
             </div>
         </section>
     
-            <h2>What I do</h2>
-            <div class="container__gallery">
-                <div class="container__pic">
-                    <img class="photos__home" src="./images/consultations.jpg" alt="budgetConsultations">
-                    <div class="center"><h2>Budget Consultations</h2>
-                    </div>
-                </div> 
-                <div class="container__pic">
-                    <img class="photos__home" src="./images/wireframing.jpg" alt="wireframe">
-                    <div class="center"><h2>Wireframing</h2>
-                    </div>
+        <h2>What I do</h2>
+        <div class="container__gallery">
+            <div class="container__pic">
+                <img class="photos__home" src="./images/consultations.jpg" alt="budgetConsultations">
+                <div class="center"><h2>Budget Consultations</h2>
                 </div>
-                <div class="container__pic">
-                    <img class="photos__home" src="./images/website.webp" alt="web">
-                    <div class="center"><h2>Web Development</h2></div>
-                </div>
-                <div class="container__pic">   
-                    <img class="photos__home" src="./images/content.jpg" alt="contentCreator">
-                    <div class="center"><h2>Content Creator</h2>
-                    </div>
-                </div>
-                <div class="container__pic">    
-                    <img class="photos__home" src="./images/ecommerce.jpg" alt="eCommerce">
-                    <div class="center"><h2>E-Commerce</h2>
-                    </div>
-                </div>
-                <div class="container__pic">
-                    <img class="photos__home" src="./images/Product.jpg" alt="productDesign"> 
-                    <div class="center"><h2>Product Design</h2>
-                    </div>
+            </div> 
+            <div class="container__pic">
+                <img class="photos__home" src="./images/wireframing.jpg" alt="wireframe">
+                <div class="center"><h2>Wireframing</h2>
                 </div>
             </div>
-        <section>
-            <h2 class="title"> Innovation through Coding</h2>
-            <div class="reviews">
-                <div class="review__1">
-                    <p> <span style="color:lightblue; font-weight:bold">"</span>Maria helped me to set up my online shop in a timely and efficient manner. I am delighted with her work! <span style="color:lightblue; font-weight:bold">"</span></p>
-                    <h5>Sophie Robbinson</h5>
-                </div>
-                <div class="review__2">
-                    <p> <span style="color:lightblue; font-weight:bold">"</span>Your creativity has no ceiling <span style="color:lightblue; font-weight:bold">"</span></p>
-                    <h5>Thomas McGee</h5>
-                </div>
-                
-                <div class="review__3">
-                    <p> <span style="color:lightblue; font-weight:bold">"</span>It has been a pleasure working with you. Keep it up! <span style="color:lightblue; font-weight:bold">"</span></p>
-                    <h5>Catherine Burke</h5>
+            <div class="container__pic">
+                <img class="photos__home" src="./images/website.webp" alt="web">
+                <div class="center"><h2>Web Development</h2></div>
+            </div>
+            <div class="container__pic">   
+                <img class="photos__home" src="./images/content.jpg" alt="contentCreator">
+                <div class="center"><h2>Content Creator</h2>
                 </div>
             </div>
+            <div class="container__pic">    
+                <img class="photos__home" src="./images/ecommerce.jpg" alt="eCommerce">
+                <div class="center"><h2>E-Commerce</h2>
+                </div>
+            </div>
+            <div class="container__pic">
+                <img class="photos__home" src="./images/Product.jpg" alt="productDesign"> 
+                <div class="center"><h2>Product Design</h2>
+                </div>
+            </div>
+        </div>
+    <section>
+    <h2 class="title">  What my clients say about my work</h2>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./images/review1.jpg" width= 450 height= 450  class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="./images/review2.jpg" width= 450 height= 450  class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="./images/review3.jpg" width= 450 height= 450  class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <form class="form__main">
+        <div>
+            <label> Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>Surname</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email">
+        </div>
+        <div>
+            <textarea placeholder="Please write here your comment"></textarea>
+        </div>
+        <div>
+            <input type="button" value="Send"  a href="mailto:maga.ramirez86@gmail.com" >
+            <input type="reset" value="Restart">
+        </div>
+    </form>
         </section>
     </main>
-
+<!-- end of main -->
+<!-- start footer -->
     <footer>
         <section class="container__footer">
             <div class="iconos">
@@ -129,16 +166,14 @@
                 </ul>
             </div>
         </section>
-        
-
     </footer>
+    <!-- end of footer -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
                     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
                     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
                     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
                     crossorigin="anonymous"></script>
-
 </body>
 
 </html>
