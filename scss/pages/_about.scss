@@ -1,31 +1,42 @@
 
-.main__about{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 
 .container__main{
   display: flex;
+  flex-direction: row;
 
-  p{
-    width:50%;
-    padding: nth($measurementspx, 5) nth($measurementspx, 2) 0 nth($measurementspx, 2);
-    text-align: justify;
+    img{
+      width:350px;
+      height:350px;
   }
+
+    & p{
+      width:100%;
+      padding: nth($measurementspx, 5) nth($measurementspx, 2) 0 nth($measurementspx, 2);
+      margin-left: 15px;
+      color:rgb(63, 61, 61);
+      font-size: 18px;
+      text-align: justify;
+      font-style: italic;
+    
+  }
+}
+
+.pic__about{
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .container__skills{
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-content: flex-end;
-    width:50%;
-
-
+    width:55%;
+    margin-top: 15px;
+    padding-left: 20px;
+  
   }
+
+
 .container {
     border: solid 1px white;
     border-radius: 20px;
@@ -47,32 +58,26 @@
 .html {
     width: 90%; 
     background-color: #f77268;
-    transition: 2s;
+    transition: 3s;
   } 
   
 .css {
     width: 80%; 
     background-color: rgb(12, 165, 165);
-    transition: 3s;
+    transition: 4s;
   } 
   
 .js {
     width: 65%; 
     background-color: #ebcd6b;
-    transition: 4s;
+    transition: 5s;
   } 
   
 .ux {
     width: 50%; 
     background-color: #808080;
-    transition: 5s;
+    transition: 6s;
   } 
-
-.skills__section{
-    display:flex;
-    flex-wrap: nowrap;
-    width:70%;
-  }
 
 .tools ul li{
     display:inline;
@@ -80,5 +85,33 @@
     flex-direction: row;
     position:relative;
     font-size: nth($measurementspx,3);
+    padding: 25px;
+    margin-left: 20px;
+    color:rgb(63, 61, 61)
+    
 
+  }
+
+  .extras{
+
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+  }
+
+  .centre__about{
+
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .lists li{
+
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 30px;
+    color:rgb(63, 61, 61)
   }

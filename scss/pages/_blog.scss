@@ -1,0 +1,38 @@
+
+.plant__vid{
+    display: flex;
+    flex-direction: row;
+
+    iframe{
+        padding: 15px;
+    }
+
+    p{
+        text-align: justify;
+        padding: 15px;
+        padding-top: 120px;
+        padding-left: 35px;
+        color:rgb(63, 61, 61);
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+}
+
+.handmade__pieces{
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 25px;
+
+    img{
+        padding-left: 55px;
+        margin: 25px;
+        
+
+        &:hover{
+            filter: grayscale(100%);
+            
+        }
+    }
+
+}
