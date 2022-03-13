@@ -85,7 +85,7 @@
     flex-direction: row;
     position:relative;
     font-size: nth($measurementspx,3);
-    padding: 25px;
+    padding: 30px;
     margin-left: 20px;
     color:rgb(63, 61, 61)
     
@@ -110,8 +110,25 @@
 
     text-decoration: none;
     list-style: none;
-    padding: 15px;
-    margin: 20px;
+    padding: 20px;
     margin-top: 30px;
+    margin-left: 20px;
     color:rgb(63, 61, 61)
+  }
+
+  .logos img{
+    padding: 8px;
+    margin-left: 94px;
+
+      &boots{
+        margin-left: 100px;
+      }
+
+      &visual{
+        margin-left: 150px;
+      }
+  }
+
+  .boots{
+    margin-left: 150px;
   }

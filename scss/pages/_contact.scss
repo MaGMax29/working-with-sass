@@ -3,6 +3,8 @@ h1{
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
+    color:$bgcFooterNav;
+    margin-top: 15px;
 }
 
 .contact__text{
@@ -14,7 +16,7 @@ h1{
     padding:50px;
 
     & p span{
-        color:$bgcFooterNav;
+        color:rgba(230, 233, 42, 0.938);
         text-decoration: underline;
     }
 
