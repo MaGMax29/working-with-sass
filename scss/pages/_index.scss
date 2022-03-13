@@ -230,5 +230,55 @@ h2{
 }
 
 .h5{
-    color:grey;
+    color:rgb(63, 61, 61);
+}
+
+
+/* mobile look */
+@media only screen and (max-width: 599px) {
+    .home__Pic{
+        display:none;
+    }
+    .header__home{
+        background-color: lightcoral;
+    }
+    .container__footer{
+        background-color: lightcoral;
+    }
+    .handmade__pieces{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "picOne" 
+        "picTwo" 
+        "picThree";
+    }
+
+    .container__gallery{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "picOne" 
+        "picTwo" 
+        "picThree";
+    }
+
+    .container__main p{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+/* tablet/desktop */
+@media only screen and (min-width: 600px) and (max-width: 1023px){
+    .handmade__pieces{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "picOne" "picTwo" 
+        "picThree";
+    }
 }
